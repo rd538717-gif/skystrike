@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "skystrike",
+  "version": "${version}",
+  "name": "SkyStrike",
+  "description": "Rufe mit einer Taste einen kosmetischen Zickzack-Blitz mit Donner herbei.",
+  "authors": ["SkyStrike"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.skystrike.SkyStrikeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
